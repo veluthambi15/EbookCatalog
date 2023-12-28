@@ -71,11 +71,11 @@ Delete a book by ID:
 
 To add a new Ebook through Command prompt - Open a new Command Prompt:
 
-	curl -X POST -H "Content-Type: application/json" -d '{"author":"Veluthambi","title":"Finnish Language","format":"Pdf"}' http://localhost:8080/ebooks
+	curl -X POST -H "Content-Type: application/json" -d "{\"author\":\"Veluthambi\",\"title\":\"Finnish Language\",\"format\":\"Pdf\"}" http://localhost:8080/ebooks
 		
 Or:
 
-	curl -X POST -H "Content-Type: application/json" -d "{\"author\":\"Veluthambi\",\"title\":\"Finnish Language\",\"format\":\"Pdf\"}" http://localhost:8080/ebooks
+	curl -X POST -H "Content-Type: application/json" -d '{"author":"Veluthambi","title":"Finnish Language","format":"Pdf"}' http://localhost:8080/ebooks
 	
 To fetch all the Ebooks through Command prompt:
 
@@ -87,11 +87,11 @@ To fetch the ebook by Id through Command prompt:
 	
 To update attributes of a ebook through Command prompt:
 
-	curl -X PUT -H "Content-Type: application/json" -d '{"author":"Praveen","title":"English Language","format":"Online"}' http://localhost:8080/ebooks/{ebook_id}
+	curl -X PUT -H "Content-Type: application/json" -d "{\"author\":\"Praveen\",\"title\":\"English Language\",\"format\":\"Online\"}" http://localhost:8080/ebooks/{ebook_id}
 	
 Or:
 
-	curl -X PUT -H "Content-Type: application/json" -d "{\"author\":\"Praveen\",\"title\":\"English Language\",\"format\":\"Online\"}" http://localhost:8080/ebooks/{ebook_id}
+	curl -X PUT -H "Content-Type: application/json" -d '{"author":"Praveen","title":"English Language","format":"Online"}' http://localhost:8080/ebooks/{ebook_id}
 	
 To Delete a book by ID through Command prompt:
 
