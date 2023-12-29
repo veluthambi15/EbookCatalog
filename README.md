@@ -15,7 +15,7 @@ These instructions will help you run the application on your local machine.
 
 Clone the repository:
 
-   git clone https://github.com/veluthambi15/EbookCatalog.git
+   	git clone https://github.com/veluthambi15/EbookCatalog.git
    
 Navigate to the project directory:
 
