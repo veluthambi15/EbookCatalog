@@ -15,7 +15,7 @@ import org.apache.logging.log4j.Logger;
 @Service
 public class EbookServiceImpl implements EbookService {
 	
-	private static final Logger logger = LogManager.getLogger(EbookService.class);
+    private static final Logger logger = LogManager.getLogger(EbookService.class);
 
     private final List<Ebook> ebooks = new ArrayList<>();
 
