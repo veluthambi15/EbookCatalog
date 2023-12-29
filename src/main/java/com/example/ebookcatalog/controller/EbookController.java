@@ -24,7 +24,7 @@ import org.apache.logging.log4j.Logger;
 @RequestMapping("/ebooks")
 public class EbookController {
 
-	private static final Logger logger = LogManager.getLogger(EbookController.class);
+    private static final Logger logger = LogManager.getLogger(EbookController.class);
 	
     private final EbookService ebookService;
 
